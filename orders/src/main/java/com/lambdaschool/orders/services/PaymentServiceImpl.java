@@ -7,16 +7,16 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
-@Service(value = "paymentServices")
+@Service(value = "paymentService")
 public class PaymentServiceImpl implements PaymentService
 {
     @Autowired
     private PaymentRepository paymentrepos;
 
-    @Transactional
-    @Override
-    public Payment save(Payment payment)
-    {
-        return paymentrepos.save(payment);
-    }
+//    @Transactional
+//    @Override
+//    public Payment save(Payment payment)
+//    {
+//        return paymentrepos.save(payment);
+//    }
 }

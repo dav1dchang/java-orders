@@ -4,5 +4,5 @@ import com.lambdaschool.orders.models.Payment;
 
 public interface PaymentService
 {
-    Payment save(Payment payment);
+//    Payment save(Payment payment);
 }
